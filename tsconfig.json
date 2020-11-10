@@ -1,13 +1,21 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
-    "sourceMap": true,
     "noImplicitAny": true,
     "module": "es6",
     "target": "es5",
     "jsx": "react",
     "allowJs": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "types": ["node", "jest"]
   },
-  "include": ["./src/**/*"]
+  "include": [
+    "src/**/*.ts",
+    "node_modules/@types"
+  ],
+  "exclude": [
+    "src/**/*.spec.ts"
+  ]
 }

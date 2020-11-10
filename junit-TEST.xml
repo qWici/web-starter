@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="1.844">
+  <testsuite name="calculate" errors="0" failures="0" skipped="0" timestamp="2020-11-10T22:34:52" time="1.476" tests="3">
+    <testcase classname="calculate generate canvas w/ params" name="calculate generate canvas w/ params" time="0.003">
+    </testcase>
+    <testcase classname="calculate generate canvas only with width" name="calculate generate canvas only with width" time="0.002">
+    </testcase>
+    <testcase classname="calculate generate canvas with width and height" name="calculate generate canvas with width and height" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
